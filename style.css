@@ -1,0 +1,95 @@
+html {
+    box-sizing: border-box;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: Roboto, sans-serif;
+    font-weight: 400;
+    line-height: 1.5;
+    margin: 0;
+}
+
+.header{
+    background-color: #1f2937;
+}
+
+.navigation-container, .hero-container{
+    max-width: 1080px;
+    margin:auto;
+}
+
+.navigation-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-logo{
+    display: block;
+    font-size: 24px;
+    color:#f9faf8;
+    text-decoration: none;
+    padding: 10px 0;
+}
+
+.site-nav{
+    display: flex;
+    list-style-type: none;
+    padding-left:0;
+    margin: 0;
+}
+
+.site-nav * + *{
+    margin-left: 20px;
+    margin-top: 0;
+}
+
+.nav-link{
+    display: block;
+    text-decoration: none;
+    color:#e5e7eb;
+    font-size: 18px;
+    padding: 12px 0;
+}
+
+.hero-container{
+    display: flex;
+    padding:50px 0;
+}
+
+.hero-container > * + *{
+    margin-left:30px ;
+}
+
+.hero-side{
+    flex:1;
+}
+
+.hero-text > h1{
+    color:#f9faf8;
+    margin-top: 0;
+}
+
+.hero-text > p {
+    color:#e5e7eb;
+}
+
+.img-container > img{
+    width: 100%;
+    border-radius: 5px;
+    border:1px solid white;
+}
+
+.btn-text{
+    background-color: #3882f6;
+    color:#f9faf8;
+    padding:10px 15px;
+    border-radius: 3px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 15px;
+}
+
