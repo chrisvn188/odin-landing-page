@@ -13,11 +13,11 @@ body {
     margin: 0;
 }
 
-.header{
+header, footer{
     background-color: #1f2937;
 }
 
-.navigation-container, .hero-container{
+.navigation-container, .hero-container, .stadiums-collection, .quotes, .sign-up{
     max-width: 1080px;
     margin:auto;
 }
@@ -93,3 +93,83 @@ body {
     margin-top: 15px;
 }
 
+.stadiums-collection{
+    padding: 30px 0;
+    margin-bottom: 50px;
+}
+
+.stadiums-collection h2{
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 60px;
+}
+
+.card-container{
+    display: flex;
+}
+
+.card-container > * + *{
+    margin-left: 20px;
+}
+
+.card{
+    flex: 1;
+}
+
+.card > img{
+    width: 100%;
+    display: block;
+    border-radius: 3px;
+}
+
+.card > p{
+    text-align: center;
+}
+
+.quotes{
+    padding: 150px 0;
+    background-color: #e5e7eb;
+}
+
+.quotes > p{
+    max-width: 60%;
+    margin: 0 auto;
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+}
+
+.sign-up{
+    background-color: #3882f6;
+    max-width: 60%;
+    margin: 100px auto;
+    border-radius: 5px;
+    display: flex;
+    padding: 20px 0;
+    color: #f9faf8;
+}
+
+.text-container{
+    flex: 2;
+    padding-left: 50px;
+}
+
+.btn-container{
+    flex:1;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 50px;
+    align-items: center;
+}
+
+.btn-border-white{
+    margin-top: 0;
+    border:2px solid white;
+}
+
+footer{
+    padding: 20px 0;
+    text-align: center;
+    color: #e5e7eb;
+    font-size: 12px;
+}
