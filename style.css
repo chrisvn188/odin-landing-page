@@ -139,6 +139,11 @@ header, footer{
     color: #1f2937;
 }
 
+.quotes b{
+    display: block;
+    text-align: right;
+}
+
 .sign-up{
     background-color: #3882f6;
     max-width: 60%;
