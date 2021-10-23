@@ -5,77 +5,104 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styles/style.css">
     <title>Odin Landing Page</title>
 </head>
 
 <body>
-    <header id="header" class="header">
-        <div class="navigation-container">
-            <div class="logo-container">
-                <a href="#" class="header-logo">League Stadiums</a>
-            </div>
+    <div class="ctn">
+        <header>
+            <!-- Navigation START -->
             <nav>
                 <ul class="site-nav">
-                    <li class="list-item"><a href="#header" class="nav-link">Home</a></li>
-                    <li class="list-item"><a href="#stadiums" class="nav-link">Stadiums</a></li>
-                    <li class="list-item"><a href="#quotes" class="nav-link">Quotes</a></li>
-                    <li class="list-item"><a href="#sign-up" class="nav-link">Sign up</a></li>
+                    <li class="list-item">
+                        <ul class="child-nav nav-right">
+                            <li class="nr-list-item"><a href="#" class="nav-link">Top Scorers</a></li>
+                            <li class="nr-list-item"><a href="#" class="nav-link">Rumours</a></li>
+                            <li class="nr-list-item"><a href="#" class="nav-link">Transfers</a></li>
+                        </ul>
+                    </li>
+                    <li class="list-item">
+                        <a class="nav-link" href="#">
+                            <img src="images/logo.png" alt="logo" width="150px">
+                        </a>
+                    </li>
+                    <li class="list-item">
+                        <ul class="child-nav nav-left">
+                            <li class="nl-list-item"><a href="#" class="nav-link">Quotes</a></li>
+                            <li class="nl-list-item"><a href="#" class="nav-link">Merchandise</a></li>
+                            <li class="nl-list-item"><a href="#" class="nav-link">Sign Up</a></li>
+                        </ul>
+                    </li>
                 </ul>
             </nav>
-        </div>
-        <div class="hero-container">
-            <div class="hero-side hero-text">
-                <h1>This website is amazing</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid ducimus expedita molestiae, non
-                    deleniti vero minus aspernatur fugit? Numquam illum officiis saepe dolore nobis corporis repudiandae
-                    commodi quia ad non.</p>
-                <a href="#" class="btn-text">Sign Up</a>
-            </div>
-            <div class="hero-side img-container">
-                <img src="stadium.jpg" alt="photo placeholder">
-            </div>
-        </div>
-    </header>
-    <main>
-        <section id="stadiums" class="stadiums-collection">
-            <h2>Stadiums Collection</h2>
-            <div class="card-container">
-                <div class="card">
-                    <img src="stadium-1.jpg" alt="manchester united stadium">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit, sfaae dfsddd ddddee</p>
+            <!-- Navigation END -->
+            <!-- Hero START -->
+            <div class="hero">
+                <div class="hero-child hero-text">
+                    <h1>Learn amazing skills</h1>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Optio repellat corporis incidunt
+                        accusamus earum, possimus, ipsum eius fugiat quibusdam ex provident quod, quidem quia. Accusamus
+                        quae iusto error ipsam rem.</p>
+                    <a href="#" class="btn-text">Read more</a>
                 </div>
-                <div class="card">
-                    <img src="stadium-2.jpg" alt="white hart lane">
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe vel pariatur aliquid</p>
-                </div>
-                <div class="card">
-                    <img src="stadium-3.jpg" alt="etihad">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed illum</p>
-                </div>
-                <div class="card">
-                    <img src="stadium-4.jpg" alt="anfield">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore omnis, harum sit maxime</p>
+                <div class="hero-child hero-img-container">
+                    <img class="hero-img" src="images/hero-img.png" alt="hero-img">
                 </div>
             </div>
+            <!-- Hero END -->
 
-        </section>
-        <section id="quotes" class="quotes">
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorum maxime, repudiandae et quis rem ut
-                reprehenderit alias consequuntur cupiditate commodi corporis eligendi modi voluptas quidem. Beatae
-                impedit dignissimos ab ad?</p>
-            <p><b>~Anyone~</b></p>
-        </section>
-        <section id="sign-up" class="sign-up">
-            <div class="text-container">
-                <h3>Call to action</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus dignissimos minima fugiat esse mollitia expedita perspiciatis, quisquam illum blanditii</p>
-            </div>
+        </header>
 
-            <div class="btn-container"><a class="btn-text btn-border-white" href="#">Sign Up</a></div>
-        </section>
-    </main>
-    <footer>Copyright &copy; The Odin Project 2021</footer>
+        <main>
+            <!-- Section Top Scorers START -->
+            <section class="top-scorers">
+                <h2>Top Scorers</h2>
+                <div class="card-container">
+                    <div class="card">
+                        <img src="images/player-1.png" alt="Player 01 photo">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                    </div>
+                    <div class="card">
+                        <img src="images/player-2.png" alt="Player 02 photo">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                    </div>
+                    <div class="card">
+                        <img src="images/player-3.png" alt="Player 03 photo">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe iure ratione</p>
+                    </div>
+                    <div class="card">
+                        <img src="images/player-4.png" alt="Player 04 photo">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe</p>
+                    </div>
+                </div>
+                
+
+            </section>
+            <!-- Section Top Scorers END -->
+            <section class="quotes">
+                <div class="quote-container">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis minus autem quo vero quam</p>
+                    <p>Christiano Ronalduck</p>
+                </div>
+            </section>
+
+            <section class="call-to-action">
+                <div class="cta-container">
+                    <div class="cta-text-container">
+                        <h3>Call To Action</h3>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quia praesentium amet corrupti sapiente tempore qui nisi necessitatibus.</p>
+                    </div>
+                    <div class="cta-btn-container">
+                        <a href="#" class="btn-text btn-border-white">Sign Up</a>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer>Copyright &copy; The Odin Projects</footer>
+    </div>
+
 </body>
 
 </html>
